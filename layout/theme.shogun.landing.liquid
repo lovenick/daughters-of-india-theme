@@ -77,19 +77,15 @@ This file can be re-written at any time.
     };
   </script>
 
-{%comment%}{{ content_for_header }}{%endcomment%}{%include "content_for_header"%}    
- {%capture pDescription%}
+  {{ content_for_header }}
   <script src="{{ 'vendor-scripts-v8.js' | asset_url | split: '?' | first }}" defer="defer"></script>
-<script src="{{ 'theme.min.js' | asset_url }}" defer="defer"></script>
   
-{%endcapture%}
-
   {%- if shop.enabled_currencies.size > 1 -%}
     <link rel="preload" as="style" href="{{ 'currency-flags.css' | asset_url | split: '?' | first }}" onload="this.onload=null;this.rel='stylesheet'">
     <link rel="stylesheet" href="{{ 'currency-flags.css' | asset_url | split: '?' | first }}">
   {%- endif -%}
 
-  
+  <script src="{{ 'theme.min.js' | asset_url }}" defer="defer"></script>
 
   {%- if request.page_type contains 'customers/' -%}
     <script src="{{ 'shopify_common.js' | shopify_asset_url }}" defer="defer"></script>
