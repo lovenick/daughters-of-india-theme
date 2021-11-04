@@ -2324,7 +2324,7 @@ input[type=image]{
   -webkit-appearance:none;
           appearance:none;
   background-position:100%;
-  background-image:url(//cdn.shopify.com/s/files/1/1526/0654/t/15/assets/ico-select.svg);
+  background-image:url(//cdn.shopify.com/s/files/1/1526/0654/t/16/assets/ico-select.svg);
   background-repeat:no-repeat;
   background-position:right 10px center;
   background-color:transparent;
@@ -2337,7 +2337,7 @@ input[type=image]{
 }
 
 .is-light .faux-select,.is-light select{
-    background-image:url(//cdn.shopify.com/s/files/1/1526/0654/t/15/assets/ico-select-white.svg)
+    background-image:url(//cdn.shopify.com/s/files/1/1526/0654/t/16/assets/ico-select-white.svg)
 }
 
 optgroup{
@@ -3694,7 +3694,7 @@ form+.footer__social{
     }
 
 .site-footer .faux-select,.site-footer select{
-    background-image:url(//cdn.shopify.com/s/files/1/1526/0654/t/15/assets/ico-select-footer.svg);
+    background-image:url(//cdn.shopify.com/s/files/1/1526/0654/t/16/assets/ico-select-footer.svg);
   }
 
 [data-center-text=true] .payment-icons{
@@ -7757,7 +7757,7 @@ html[dir=rtl] .grid-product__content{
 .grid-product__meta{
   position:relative;
   padding:10px 0 6px 0;
-  line-height:1.4
+  line-height:1.5
 }
 
 @media only screen and (max-width:768px){
